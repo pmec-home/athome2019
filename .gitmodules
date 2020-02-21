@@ -1,3 +1,33 @@
+[submodule "chatbot/wake_word"]
+	path = chatbot/wake_word
+	url = https://github.com/pmec-home/wake_word.git
+[submodule "chatbot/zordon_chatbot"]
+	path = chatbot/zordon_chatbot
+	url = https://github.com/pmec-home/roboga_chatbot.git
+[submodule "chatbot/zordon_nlu"]
+	path = chatbot/zordon_nlu
+	url = https://github.com/pmec-home/roboga_nlu.git
+[submodule "chatbot/zordon_stt"]
+	path = chatbot/zordon_stt
+	url = https://github.com/pmec-home/roboga_stt.git
+[submodule "chatbot/zordon_tts"]
+	path = chatbot/zordon_tts
+	url = https://github.com/pmec-home/roboga_tts.git
+[submodule "freenect_stack"]
+	path = freenect_stack
+	url = git@github.com:pmec-home/freenect_stack.git
+[submodule "tf-pose-estimation"]
+	path = tf-pose-estimation
+	url = git@github.com:pmec-home/tf-pose-estimation.git
+[submodule "zed-ros-wrapper"]
+	path = zed-ros-wrapper
+	url = git@github.com:pmec-home/zed-ros-wrapper.git
 [submodule "zordon_msgs"]
 	path = zordon_msgs
-	url = git@github.com:pequi-home/roboga_msgs.git
+	url = git@github.com:pmec-home/zordon_msgs.git
+[submodule "zordon_smach_stack"]
+	path = zordon_smach_stack
+	url = git@github.com:fellipeac2/zordon_smach_stack.git
+[submodule "zordon_teleop"]
+	path = zordon_teleop
+	url = git@github.com:pmec-home/zordon_teleop.git
