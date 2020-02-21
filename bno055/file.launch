@@ -1,0 +1,4 @@
+<launch>
+  <node name="bno055_node" pkg="bno055" type="bno055_node" />
+  <node pkg="tf" type="static_transform_publisher" name="imu_link_broadcaster" args="0.15 -0.20 0.20 0 0 0 1 copel_base imu_frame 100" />
+</launch>
