@@ -1,0 +1,3 @@
+[submodule "zordon_msgs"]
+	path = zordon_msgs
+	url = git@github.com:pequi-home/roboga_msgs.git
