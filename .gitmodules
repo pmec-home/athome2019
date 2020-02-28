@@ -13,9 +13,6 @@
 [submodule "chatbot/zordon_tts"]
 	path = chatbot/zordon_tts
 	url = https://github.com/pmec-home/roboga_tts.git
-[submodule "tf-pose-estimation"]
-	path = tf-pose-estimation
-	url = https://github.com/pmec-home/tf-pose-estimation.git
 [submodule "zed-ros-wrapper"]
 	path = zed-ros-wrapper
 	url = https://github.com/pmec-home/zed-ros-wrapper.git
