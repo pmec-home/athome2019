@@ -23,6 +23,7 @@ env:
     - CCACHE_DIR=$HOME/.ccache # enables C/C++ caching in industrial_ci
   matrix: # each line is a job
     - ROS_DISTRO="melodic"
+    - ROS_DISTRO="melodic" PRERELEASE=true PRERELEASE_REPONAME=std_msgs PRERELEASE_DOWNSTREAM_DEPTH=0
 
 # allow failures, e.g. for unsupported distros
 
