@@ -19,9 +19,6 @@
 [submodule "zordon_msgs"]
 	path = zordon_msgs
 	url = https://github.com/pmec-home/zordon_msgs.git
-[submodule "zordon_smach_stack"]
-	path = zordon_smach_stack
-	url = https://github.com/pmec-home/zordon_smach_stack.git
 [submodule "zordon_teleop"]
 	path = zordon_teleop
 	url = https://github.com/pmec-home/zordon_teleop.git
