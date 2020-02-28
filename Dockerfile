@@ -28,19 +28,19 @@ RUN apt-get update -y && \
     apt-get install ros-melodic-desktop-full python-rosinstall python-rosinstall-generator python-wstool build-essential nano cmake usbutils git -y --allow-unauthenticated && \
     rm -rf /var/lib/apt/lists/*
 
-RUN adduser --gecos "ROS User" --home /home/ros --disabled-password ros && \
-    usermod -a -G dialout ros && \
-    echo "ros ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/99_aptget && \
-    chown ros /usr/local/zed/ -R
-
+#RUN adduser --gecos "ROS User" --home /home/ros --disabled-password ros && \
+#    usermod -a -G dialout ros && \
+#    echo "ros ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/99_aptget && \
+#    chown ros /usr/local/zed/ -R
+#
 # switch to user ros, but the HOME is still /, not /home/ros
-USER ros
-
-# setup ros env
-RUN sudo rosdep init && rosdep update && echo "source \"/opt/ros/melodic/setup.bash\"" >> /home/ros/.bashrc && \
-    mkdir /home/ros/src
-
-# cd /home/ros default
-WORKDIR /home/ros
-
-CMD ["bash"]
+#USER ros
+#
+## setup ros env
+#RUN sudo rosdep init && rosdep update && echo "source \"/opt/ros/melodic/setup.bash\"" >> /home/ros/.bashrc && \
+#    mkdir /home/ros/src
+#
+## cd /home/ros default
+#WORKDIR /home/ros
+#
+#CMD ["bash"]
