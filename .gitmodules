@@ -13,9 +13,6 @@
 [submodule "chatbot/zordon_tts"]
 	path = chatbot/zordon_tts
 	url = https://github.com/pmec-home/roboga_tts.git
-[submodule "freenect_stack"]
-	path = freenect_stack
-	url = https://github.com/pmec-home/freenect_stack.git
 [submodule "tf-pose-estimation"]
 	path = tf-pose-estimation
 	url = https://github.com/pmec-home/tf-pose-estimation.git
