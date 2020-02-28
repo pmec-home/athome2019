@@ -15,19 +15,19 @@
 	url = https://github.com/pmec-home/roboga_tts.git
 [submodule "freenect_stack"]
 	path = freenect_stack
-	url = git@github.com:pmec-home/freenect_stack.git
+	url = https://github.com/pmec-home/freenect_stack.git
 [submodule "tf-pose-estimation"]
 	path = tf-pose-estimation
-	url = git@github.com:pmec-home/tf-pose-estimation.git
+	url = https://github.com/pmec-home/tf-pose-estimation.git
 [submodule "zed-ros-wrapper"]
 	path = zed-ros-wrapper
-	url = git@github.com:pmec-home/zed-ros-wrapper.git
+	url = https://github.com/pmec-home/zed-ros-wrapper.git
 [submodule "zordon_msgs"]
 	path = zordon_msgs
-	url = git@github.com:pmec-home/zordon_msgs.git
+	url = https://github.com/pmec-home/zordon_msgs.git
 [submodule "zordon_smach_stack"]
 	path = zordon_smach_stack
-	url = git@github.com:fellipeac2/zordon_smach_stack.git
+	url = https://github.com/fellipeac2/zordon_smach_stack.git
 [submodule "zordon_teleop"]
 	path = zordon_teleop
-	url = git@github.com:pmec-home/zordon_teleop.git
+	url = https://github.com/pmec-home/zordon_teleop.git
